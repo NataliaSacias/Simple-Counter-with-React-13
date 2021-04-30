@@ -15,7 +15,7 @@ export function Home(props) {
 			<span>{props.cuarto}</span>
 			<span>{props.tercero}</span>
 			<span>{props.segundo}</span>
-			<span>{props.pepito}</span>
+			<span>{props.primero}</span>
 		</div>
 	);
 }
@@ -24,5 +24,5 @@ Home.propTypes = {
 	cuarto: PropTypes.number,
 	tercero: PropTypes.number,
 	segundo: PropTypes.number,
-	pepito: PropTypes.number
+	primero: PropTypes.number
 };

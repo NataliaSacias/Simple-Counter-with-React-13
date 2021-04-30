@@ -23,7 +23,7 @@ setInterval(() => {
 
 	ReactDOM.render(
 		<Home
-			pepito={primero}
+			primero={primero}
 			segundo={segundo}
 			tercero={tercero}
 			cuarto={cuarto}
